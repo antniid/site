@@ -1,7 +1,7 @@
 // pages/index.tsx
 import React from 'react';
 import Head from 'next/head';
-import '../styles/globals.css'  {/* Changement ici */}
+import '../styles/globals.css' // Vérifie le chemin de ton fichier CSS
 
 export default function Home() {
   return (
