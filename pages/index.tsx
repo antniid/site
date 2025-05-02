@@ -1,9 +1,9 @@
 // pages/index.tsx
 import React from 'react';
 import Head from 'next/head';
-import '../styles/globals.css' // Vérifie le chemin de ton fichier CSS
+import '../styles/globals.css'; // Vérifie le chemin de ton fichier CSS global
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <Head>
@@ -63,4 +63,6 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+};
+
+export default Home;
