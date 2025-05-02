@@ -1,19 +1,21 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-900">
-      <header className="bg-white shadow p-4 text-xl font-bold">
-        Substy Dashboard
-      </header>
-      <main className="p-6">
-        <div className="bg-white p-4 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-2">Messages récents</h2>
-          <ul className="space-y-2">
-            <li className="p-2 border rounded hover:bg-gray-50">Miko - "je suis en pause"</li>
-            <li className="p-2 border rounded hover:bg-gray-50">Dhelae - "ça va ?"</li>
-            <li className="p-2 border rounded hover:bg-gray-50">mickael friant - "Les demandes..."</li>
-          </ul>
-        </div>
+    <div className="flex min-h-screen bg-gray-100">
+      {/* Sidebar */}
+      <aside className="w-64 bg-white shadow-md p-4">
+        <h2 className="text-xl font-bold mb-4">Dashboard</h2>
+        <ul>
+          <li className="mb-2">📥 Messages</li>
+          <li className="mb-2">📊 Stats</li>
+          <li className="mb-2">👥 Fans</li>
+        </ul>
+      </aside>
+
+      {/* Main content */}
+      <main className="flex-1 p-6">
+        <h1 className="text-2xl font-bold mb-4">Bienvenue !</h1>
+        <p className="text-gray-600">Voici ton espace de travail style Substy.</p>
       </main>
     </div>
-  );
+  )
 }
