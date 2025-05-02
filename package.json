@@ -1,20 +1,20 @@
 {
-  "name": "creatorish-site",
+  "name": "creator-ish",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.14",
-    "next": "13.4.7",
-    "postcss": "^8.4.24",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "^3.3.2",
-    "typescript": "^5.0.4"
+    "next": "^12.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "tailwindcss": "^2.0.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
   }
 }
