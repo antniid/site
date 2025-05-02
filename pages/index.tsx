@@ -1,8 +1,7 @@
 // pages/index.tsx
 import React from 'react';
 import Head from 'next/head';
-import '@/styles/globals.css'
-
+import '../styles/globals.css'  {/* Changement ici */}
 
 export default function Home() {
   return (
